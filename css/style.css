@@ -407,7 +407,7 @@ main {
 
 .hero__title {
   font: 700 58px/1.3 var(--secondaryFont);
-  display: inline-block;
+  display: block;
   color: var(--heroTitleColor);
   margin-bottom: 28px;
 }
