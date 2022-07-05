@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Fonts Start -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap&_v=20220705113312"
+    rel="stylesheet">
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=IBM+Plex+Sans:wght@400;700&display=swap&_v=20220705113312"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="fonts/fontello-standart-icons/css/fontello.css?_v=20220705113312">
+
+  <link rel="stylesheet" href="fonts/icofont/icofont.css?_v=20220705113312">
+  <!-- Fonts END -->
+
+  <!-- AOS -->
+  <link rel=" stylesheet" href="libs/aos.js/aos.css">
+
+  <link rel="stylesheet" href="css/style.css?_v=20220705113312">
+  <title>Main</title>
+
+  <style>
+    :root {
+      /* Color START */
+
+      /* Commons */
+      --mainTextColor: #555;
+      --secondaryTextColor: #222;
+      --mainTextLightColor: #fff;
+      --secondaryTextDarkColor: #030925;
+      --textBGColor: #017e841a;
+      --accentСolor: #017e84;
+
+      /* Header */
+      --headerBG: #fff;
+      --headerTextColor: #222;
+
+      --headerBGScrolled: rgba(1, 126, 132, 1);
+      --headerTextScrolledColor: #fff;
+
+      --headerTextHoverColor: #02a5ad;
+
+      /* Header Mobile */
+      --burgerMenuLines: #222;
+      --burgerMenuLinesActive: #fff;
+      --burgerMenuLinesBG: #222;
+      --burgerMenuBG: #fff;
+
+      /* Hero */
+      --heroBGColor: #F7FDFD;
+      --heroTitleColor: #030925;
+
+      /* Button */
+      --buttonBGColor: #017e84;
+      --buttonBGHoverColor: #04969e;
+
+      /* Progress */
+      --progressBodyBGColor: #e9ecef;
+      --progressBarBGColor: #017e84;
+
+      /* Services */
+      --servicesBGColor: #F7FDFD;
+      --cardsBGColor: #fff;
+      --listItemColor: #454545;
+      --cardHoverTextColor: #fff;
+
+      /* Accordion */
+      --accordionHeaderBG: #FFF;
+      --accordionHeaderActiveBG: #017e84;
+      --accordionHeaderActiveTextColor: #017e84;
+      --accordionBorderColor: #adadad38;
+
+      /* Footer */
+      --footerBG: #017e84;
+      --footerTextColor: #fff;
+      --linkHover: #8ddee1;
+
+      /* Color END */
+
+      /* Font START */
+      --mainFont: 'DM Sans';
+      --secondaryFont: 'IBM Plex Sans';
+      /* Font END */
+    }
+  </style>
+</head>
+
+<body>
+  <div class="wrapper">
+    <header class="header">
+  <div class="container">
+    <div class="header__body">
+      <div class="header__logo logo">
+        <img src="img/corpat-logo.svg" alt="Site Name" class="logo--icon">
+
+        <div class="logo__text">Corpat</div>
+      </div>
+      <ul class="nav__links">
+        <!--START BLOCK Hero-->
+        <li class="nav__link link">
+          <a href="#s-hero" class="link__items">Home</a>
+        </li>
+        <!-- END BLOCK Hero-->
+
+        <!--START BLOCK Info-->
+        <li class="nav__link link">
+          <a href="#s-info" class="link__items">Information</a>
+        </li>
+        <!-- END BLOCK Info-->
+
+        <!--START BLOCK Services-->
+        <li class="nav__link link">
+          <a href="#s-services" class="link__items">Services</a>
+        </li>
+        <!-- END BLOCK Services-->
+
+        <!--START BLOCK FAQ-->
+        <li class="nav__link link">
+          <a href="#s-faq" class="link__items">FAQ</a>
+        </li>
+        <!-- END BLOCK FAQ-->
+      </ul>
+      <div class="white-space"></div>
+
+      <div class="burger-menu">
+        <div class="burger-menu__button">
+          <input class="checkbox" type="checkbox" id="checkbox"></input>
+          <label class="burger-menu__lines" for="checkbox">
+            <div class="burger-menu__line"></div>
+            <div class="burger-menu__line"></div>
+            <div class="burger-menu__line"></div>
+          </label>
+        </div>
+        <div class="burger-menu__content"></div>
+        <div class="backdrop"></div>
+      </div>
+    </div>
+  </div>
+</header>
+
+    <main>
+      <section class="hero" id="s-hero">
+  <div class="container hero__container">
+    <div class="hero__image" data-aos="fade-left">
+      <img src="img/hero-img.jpg" alt="Hero Image">
+    </div>
+    <div class="hero__wrapper">
+      <div class="hero__body">
+        <div class="hero__subtitle" data-aos="fade-right" data-aos-delay="400">
+          Welcome to Corpat
+        </div>
+        <h1 class="hero__title" data-aos="fade-up">
+          Brooklyn Finance &amp;&nbsp; Consulting Software
+        </h1>
+        <div class="hero__descr" data-aos="fade-up">
+          The only platform you will ever need to help run your grated apps, kept simple, and loved by millions of happy
+          users.
+        </div>
+        <div class="hero__buttons" data-aos="fade-up">
+          <button class="hero__button section-button">
+            <a href="#">Get start now</a>
+          </button>
+          <button class="hero__button_video-play hero-button-video-play">
+            <a data-fancybox="video" href="https://www.youtube.com/watch?v=lu72YfaDU1o&ab_channel=and_what_kyle">
+              <div class="hero-button-video-play__icon">
+                <img src="img/play-icon.svg" alt="play button icon">
+              </div>
+              <span>Play video</span>
+            </a>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+      <div class="about">
+  <div class="container">
+    <div class="about__body">
+      <div class="about__cards">
+        <!-- Card 1 -->
+        <div class="about__card about-card" data-aos="fade-left">
+          <div class="about-card__wrapper">
+            <div class="about-card__text-content">
+              <i class="about-card__icon icofont-micro-chip"></i>
+              <h2 class="about-card__title">
+                Intelligible Options
+              </h2>
+              <div class="about-card__text">
+                Lorem ipsum dolor sit amet, nsectetur adipiscing elit, sed do eiusmod empor incididunt ut labore
+              </div>
+            </div>
+            <div class="about-card__image-content">
+              <img src="img/about-card-img1.jpg" alt="about card image">
+            </div>
+          </div>
+        </div>
+        <!-- Card 1 -->
+
+        <!-- Card 2 -->
+        <div class="about__card about-card" data-aos="fade-left" data-aos-delay="300">
+          <div class="about-card__wrapper">
+            <div class="about-card__text-content">
+              <i class="about-card__icon icofont-data"></i>
+              <h2 class="about-card__title">
+                Present-day Designs
+              </h2>
+              <div class="about-card__text">
+                Lorem ipsum dolor sit amet, nsectetur adipiscing elit, sed do eiusmod empor incididunt ut labore
+              </div>
+            </div>
+            <div class="about-card__image-content">
+              <img src="img/about-card-img2.jpg" alt="about card image">
+            </div>
+          </div>
+        </div>
+        <!-- Card 2 -->
+
+        <!-- Card 3 -->
+        <div class="about__card about-card" data-aos="fade-left" data-aos-delay="500">
+          <div class="about-card__wrapper">
+            <div class="about-card__text-content">
+              <i class="about-card__icon icofont-server"></i>
+              <h2 class="about-card__title">
+                High Performance
+              </h2>
+              <div class="about-card__text">
+                Lorem ipsum dolor sit amet, nsectetur adipiscing elit, sed do eiusmod empor incididunt ut labore
+              </div>
+            </div>
+            <div class="about-card__image-content">
+              <img src="img/about-card-img3.jpg" alt="about card image">
+            </div>
+          </div>
+        </div>
+        <!-- Card 3 -->
+      </div>
+    </div>
+  </div>
+</div>
+      <section class="info" id="s-info">
+  <div class="container">
+    <div class="info__body">
+      <!-- Left part -->
+      <div class="info__column">
+        <div class="info__image" data-aos="zoom-in">
+          <img src="img/info-img.jpg" alt="info image">
+        </div>
+      </div>
+      <!-- Left part -->
+
+      <!-- Right part -->
+      <div class="info__column info__column_text-content" data-aos="fade-up">
+        <!-- Text -->
+        <div class="info__row">
+          <div class="info__subtitle">
+            More About Us
+          </div>
+          <h1 class="info__title section-title">
+            We Help Our Clients to Achi Their Business Goal
+          </h1>
+          <div class="info__text">
+            There are locations in the United states of america as well as ationally. The organization was established
+            in 2000 on the basis of a small idea deived by its promoters that was incepted. Lorem ipsum dolor sit amet,
+            consectetur adipiscing elit, sed do eiusmod
+          </div>
+        </div>
+        <!-- Text -->
+
+        <!-- Progress -->
+        <div class="info__row info__row_progress">
+          <!-- Progress-bar-1 -->
+          <div class="info__progress progress">
+            <div class="progress__body">
+              <div class="progress__title">
+                Business Planning
+              </div>
+              <div class="progress__bar progress-bar">
+                <div class="progress-bar__fill">
+                  <div class="progress-bar__fill_body">
+                    <div class="progress-bar__percent" data-percent="30">0%</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Progress-bar-1 -->
+
+          <!-- Progress-bar-2 -->
+          <div class="info__progress progress">
+            <div class="progress__body">
+              <div class="progress__title">
+                Financial Advices
+              </div>
+              <div class="progress__bar progress-bar">
+                <div class="progress-bar__fill">
+                  <div class="progress-bar__fill_body">
+                    <div class="progress-bar__percent" data-percent="45">0%</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Progress-bar-2 -->
+
+          <!-- Progress-bar-3 -->
+          <div class="info__progress progress">
+            <div class="progress__body">
+              <div class="progress__title">
+                Services we provide
+              </div>
+              <div class="progress__bar progress-bar">
+                <div class="progress-bar__fill">
+                  <div class="progress-bar__fill_body">
+                    <div class="progress-bar__percent" data-percent="13">0%</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Progress-bar-3 -->
+
+          <!-- Progress-bar-4 -->
+          <div class="info__progress progress">
+            <div class="progress__body">
+              <div class="progress__title">
+                Unique Design
+              </div>
+              <div class="progress__bar progress-bar">
+                <div class="progress-bar__fill">
+                  <div class="progress-bar__fill_body">
+                    <div class="progress-bar__percent" data-percent="20">0%</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Progress-bar-4 -->
+        </div>
+        <!-- Progress -->
+      </div>
+      <!-- Right part -->
+    </div>
+  </div>
+</section>
+      <section class="services" id="s-services">
+  <div class="container">
+    <div class="services__body">
+      <div class="services__subtitle" data-aos="fade-up">
+        OUR PROVIED SERVICE
+      </div>
+      <h2 class="services__title section-title" data-aos="fade-up">
+        What Kind of Services We are Offering
+      </h2>
+      <!-- Cards -->
+      <div class="services__cards">
+        <!-- Card 1 -->
+        <div class="services__card card" data-aos="fade-left">
+          <div class="card__body">
+            <i class="card__icon icofont-layers"></i>
+            <h3 class="card__title">MultiChannel</h3>
+            <div class="card__text">
+              We offers plan and emble managing for you from the one startups.
+            </div>
+            <ul class="card__list">
+              <!-- list 1 -->
+              <li class="card__list_item list-item">
+                <i class="list-item__icon icofont-check"></i>
+                <div class="list-item__text">Mobile Applications</div>
+              </li>
+              <!-- list 1 -->
+
+              <!-- list 2 -->
+              <li class="card__list_item list-item">
+                <i class="list-item__icon icofont-check"></i>
+                <div class="list-item__text">Digital Marketing</div>
+              </li>
+              <!-- list 2 -->
+            </ul>
+          </div>
+        </div>
+        <!-- Card 1 -->
+
+        <!-- Card 2 -->
+        <div class="services__card card" data-aos="fade-left" data-aos-delay="300">
+          <div class="card__body">
+            <i class="card__icon icofont-headphone"></i>
+            <h3 class="card__title">Unlimited Support</h3>
+            <div class="card__text">
+              We have been counselling students for educa tional opportunities
+            </div>
+            <ul class="card__list">
+              <!-- list 1 -->
+              <li class="card__list_item list-item">
+                <i class="list-item__icon icofont-check"></i>
+                <div class="list-item__text">Mobile Applications</div>
+              </li>
+              <!-- list 1 -->
+
+              <!-- list 2 -->
+              <li class="card__list_item list-item">
+                <i class="list-item__icon icofont-check"></i>
+                <div class="list-item__text">Digital Marketing</div>
+              </li>
+              <!-- list 2 -->
+            </ul>
+          </div>
+        </div>
+        <!-- Card 2 -->
+
+        <!-- Card 3 -->
+        <div class="services__card card" data-aos="fade-left" data-aos-delay="500">
+          <div class="card__body">
+            <i class="card__icon icofont-computer"></i>
+            <h3 class="card__title">Competition</h3>
+            <div class="card__text">
+              We have been counselling students for educa tional opportunities
+            </div>
+            <ul class="card__list">
+              <!-- list 1 -->
+              <li class="card__list_item list-item">
+                <i class="list-item__icon icofont-check"></i>
+                <div class="list-item__text">Mobile Applications</div>
+              </li>
+              <!-- list 1 -->
+
+              <!-- list 2 -->
+              <li class="card__list_item list-item">
+                <i class="list-item__icon icofont-check"></i>
+                <div class="list-item__text">Digital Marketing</div>
+              </li>
+              <!-- list 2 -->
+            </ul>
+          </div>
+        </div>
+        <!-- Card 3 -->
+      </div>
+      <!-- Cards -->
+    </div>
+  </div>
+</section>
+      <section class="faq" id="s-faq">
+  <div class="container">
+    <div class="faq__body">
+      <!-- Left part -->
+      <div class="faq__column faq__column_left">
+        <div class="faq__subtitle" data-aos="fade-up">OUR FAQ</div>
+        <h2 class="faq__title section-title" data-aos="fade-up">Frequently Asked Any Questions</h2>
+
+        <!-- Acordions -->
+        <div class="accordions-wrapper">
+          <!-- Accordion 1 -->
+          <div class="accordion" data-aos="fade-up">
+            <div class="accordion__header accordion-header">
+              <h3 class="accordion-header__title">Responsive & Pixel Perfect Design</h3>
+              <i class="accordion-header__icon icon-arrow-down"></i>
+            </div>
+
+            <div class="accordion__body accordion-body">
+              <div class="accordion-body__text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet
+                eaque sint distinctio, cupiditate placeat iusto perferendis magnam
+                possimus sapiente! Delectus aspernatur numquam laborum impedit
+                corporis.
+              </div>
+            </div>
+          </div>
+          <!-- Accordion 1 -->
+
+          <!-- Accordion 2 -->
+          <div class="accordion" data-aos="fade-up" data-aos-delay="300">
+            <div class="accordion__header accordion-header">
+              <h3 class="accordion-header__title">High Quality Data Security </h3>
+              <i class="accordion-header__icon icon-arrow-down"></i>
+            </div>
+
+            <div class="accordion__body accordion-body">
+              <div class="accordion-body__text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet
+                eaque sint distinctio, cupiditate placeat iusto perferendis magnam
+                possimus sapiente! Delectus aspernatur numquam laborum impedit
+                corporis.
+              </div>
+            </div>
+          </div>
+          <!-- Accordion 2 -->
+
+          <!-- Accordion 3 -->
+          <div class="accordion" data-aos="fade-up" data-aos-delay="500">
+            <div class="accordion__header accordion-header">
+              <h3 class="accordion-header__title">Asing to Business Security </h3>
+              <i class="accordion-header__icon icon-arrow-down"></i>
+            </div>
+
+            <div class="accordion__body accordion-body">
+              <div class="accordion-body__text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet
+                eaque sint distinctio, cupiditate placeat iusto perferendis magnam
+                possimus sapiente! Delectus aspernatur numquam laborum impedit
+                corporis.
+              </div>
+            </div>
+          </div>
+          <!-- Accordion 3 -->
+        </div>
+        <!-- Acordions -->
+      </div>
+      <!-- Left part -->
+
+      <!-- Right part -->
+      <div class="faq__column faq__column_right">
+        <div class="faq__image" data-aos="zoom-in">
+          <img src="img/info-img.jpg" alt="info image">
+        </div>
+      </div>
+      <!-- Right part -->
+    </div>
+  </div>
+</section>
+    </main>
+
+    <footer class="footer">
+  <div class="container">
+    <div class="footer__body">
+      <div class="footer__row">
+        <div class="footer__column footer__column_1">
+          <a class="footer__logo footer-logo" href="#s-hero">
+            <!--START BLOCK HeaderLogo-->
+            <img src="img/corpat-logo.svg" alt="Site Name" class="footer-logo__icon">
+            <!--END BLOCK HeaderLogo-->
+
+            <!--START BLOCK HeaderName-->
+            <div class="footer-logo__text">Corpat</div>
+            <!--END BLOCK HeaderName-->
+          </a>
+          <div class="footer__address">
+            A108 Adam Street
+            NY 535022, USA
+          </div>
+          <div class="footer__phone">
+            <span class="footer__phone-title">Phone:</span>
+            <span class="footer__phone-text footer-item__text">+1 5589 55488 55</span>
+          </div>
+          <div class="footer__mail">
+            <span class="footer__mail-title ">Email:</span>
+            <span class="footer__mail-text footer-item__text">info@example.com</span>
+          </div>
+          <div class="footer__social social">
+            <a href="#" class="social__item">
+              <i class="icon-twitter"></i>
+            </a>
+            <a href="#" class="social__item">
+              <i class="icon-facebook"></i>
+            </a>
+            <a href="#" class="social__item">
+              <i class="icon-instagram"></i>
+            </a>
+            <a href="#" class="social__item">
+              <i class="icon-linkedin"></i>
+            </a>
+          </div>
+        </div>
+        <div class="footer__column">
+          <ul class="footer__links">
+            <!--START BLOCK Hero-->
+            <a href="#s-hero" class="footer__link">
+              <i class="icon-arrow-right"></i>
+              <span>Home</span>
+            </a>
+            <!-- END BLOCK Hero-->
+
+            <!--START BLOCK Info-->
+            <a href="#s-info" class="footer__link">
+              <i class="icon-arrow-right"></i>
+              <span>Information</span>
+            </a>
+            <!-- END BLOCK Info-->
+
+            <!--START BLOCK Services-->
+            <a href="#s-services" class="footer__link">
+              <i class="icon-arrow-right"></i>
+              <span>Services</span>
+            </a>
+            <!-- END BLOCK Services-->
+
+            <!--START BLOCK FAQ-->
+            <a href="#s-faq" class="footer__link">
+              <i class="icon-arrow-right"></i>
+              <span>FAQ</span>
+            </a>
+            <!-- END BLOCK FAQ-->
+
+            <!--START BLOCK Impressum-->
+            <a href="impressum.html" class="footer__link">
+              <i class="icon-arrow-right"></i>
+              <span>Impressum und Datenschutzerklärung</span>
+            </a>
+            <!-- END BLOCK Impressum-->
+          </ul>
+        </div>
+        <div class="footer__column">
+          <h4 class="footer__title">Footer Info</h4>
+          <div class="footer__text">
+            Ihre Website ist so programmiert, dass sie keine Cookies sammelt, deswegen brauchen Sie auch
+            keine
+            weiteren
+            Zustimmungsfenstern für eine Zuslassung der Cookies. Das wird auch in ihrer - Ihre Website ist
+            so
+            programmiert, dass sie keine Cookies sammelt, deswegen brauchen Sie auch keine weiteren
+            Zustimmungsfenstern
+            für eine Zuslassung der Cookies. Das wird auch in ihrer
+          </div>
+        </div>
+      </div>
+      <div class="footer__row footer__row_2">
+        <div class="footer-bottom__text">
+          Deine Webseite - All Rights Reserved
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+  </div>
+
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js?_v=20220705113312"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+  <!-- AOS -->
+  <script src="libs/aos.js/aos.js?_v=20220705113312"></script>
+
+  <!-- App.js -->
+  <script type="module" src="js/app.js?_v=20220705113312"></script>
+</body>
+
+</html>
