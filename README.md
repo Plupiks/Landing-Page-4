@@ -16,7 +16,7 @@ The following elements are present in this website:
 
 ## Libraries used
 - `Count.js` - number count animation
-- `Filterizr.js` - DOM element filter
+- `Fancybox.js` - image gallery
 - `AOS` - animation on scroll
 - Custom accordion
 
