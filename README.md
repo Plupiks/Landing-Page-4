@@ -1,6 +1,6 @@
 # Landing Page (Corpat)
 
-![](https://github.com/Plupiks/Landing-Page-Creator-2/blob/faa66cdcbc9f9f13df97f6a643cb3053b4690942/img/creator2.jpg)
+![](https://github.com/Plupiks/Landing-Page-Company-3/blob/da5595358cd2c3541184faefa91b59eb59c38ae6/img/corpat.jpg)
 
 ## About:
 The following elements are present in this landing:
@@ -8,17 +8,17 @@ The following elements are present in this landing:
 - Ability to view the image you clicked.
 - Count Up (animated when the element falls within sight).
 - Animation of filling the progress bar when scrolling (using JavaScript)
-- Photo gallery with filter and animation when hovering
+- Beautiful animation on hover
 
-[Link to the working page](https://plupiks.github.io/Landing-Page-Creator-2/)
+[Link to the working page](https://plupiks.github.io/Landing-Page-Company-3/)
 
 <br>
 
 ## Libraries used
 - `Count.js` - number count animation
 - `Filterizr.js` - DOM element filter
-- `Fancybox.js` - image gallery
 - `AOS` - animation on scroll
+- Custom accordion
 
 <br>
 
