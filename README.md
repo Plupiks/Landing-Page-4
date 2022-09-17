@@ -3,7 +3,7 @@
 ![](https://github.com/Plupiks/Landing-Page-Company-3/blob/da5595358cd2c3541184faefa91b59eb59c38ae6/img/corpat.jpg)
 
 ## About:
-The following elements are present in this landing:
+The following elements are present in this website:
 - Menu / Burger menu with animation when scrolling, there is a scroll to the section when you click on the link. Animated burger menu button on mobile devices. Hover effect when hovering over a menu item.
 - Ability to view the image you clicked.
 - Count Up (animated when the element falls within sight).
