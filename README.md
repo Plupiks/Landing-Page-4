@@ -10,7 +10,7 @@ The following elements are present in this website:
 - Animation of filling the progress bar when scrolling (using JavaScript)
 - Beautiful animation on hover
 
-[Link to the working page](https://plupiks.github.io/Landing-Page-Company-3/)
+[Link to the working page](https://plupiks.github.io/Landing-Page-4/)
 
 <br>
 
